@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <title>welikefood</title>
+</head>
+
+
+
+
+<body>
+    <!-- voici mon body ici -->
+    <br>
+    <div class="form">
+        <img class="logo" src="images/logo.png" alt="nourriture" >
+        <input class="form-control mr-sm-2" type="search" value="nourriture" placeholder="nourriture" aria-label="nourriture">
+        <a href=""><img class="bicone" src="images/recherche.png"></a>
+        <span  class="sert"><input type="button" value="connexion"> <label id="mini">☰</span>
+        </div>
+
+            <div style="text-align:left">
+                    <span class="entete"> 
+                        <a class="navi" href="#">TOUT</a>&nbsp;&nbsp;
+                        <a class="navi" href="">ACTUALITES</a>&nbsp;&nbsp;
+                        <a class="navi" href="#"><SPAN class="botom">IMAGES</a></SPAN>&nbsp;&nbsp; 
+                        <a class="navi" href="#">VIDEOS</a>&nbsp;&nbsp;
+                        <a class="navi" href="#">CARTES</a>
+                    </span>
+
+                    <span class="filtre">
+                        Filtre adulte : <select name="">
+                        <option>Modéré</option>
+                        <option>Stricte</option>
+                        <option>Désactivé</option>
+                        </select>
+                        &nbsp;&nbsp;&nbsp;Filtre <img src=" images/filtre.png" width="20" height="25">
+                    </span>
+            </div>
+            <BR>
+            <hr>
+
+ <!-- premier bloc de div -->
+        
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide" id="nourri"> <img src="images/imge1.jpg" alt="" > <p class="test">Nourriture <br><b>Chat</b></p></div>
+        <div class="swiper-slide" id="nourri"> <img src="images/imge2.jpg" alt=""> <p class="test"><b>Bonne</b> <br> Nourriture</p></div>
+        <div class="swiper-slide" id="nourri"> <img src="images/imge3.jpg" alt=""> <p class="test">Nourriture <BR> <b>Fast Food</b></p></div>
+        <div class="swiper-slide" id="nourri"> <img src="images/imge4.jpg" alt=""> <p class="test">Italie <b>Nourriture</b></p></div>
+        <div class="swiper-slide" id="nourri"> <img src="images/imge5.jpg" alt=""> <p class="test">Nourriture <b>Du Monde</b></p></div>
+        <div class="swiper-slide" id="nourri"> <img src="images/imge5.jpg" alt=""> <p class="test">Nourriture <b>Du Monde</b></p></div>
+        <div class="swiper-slide" id="nourri"> <img src="images/imge1.jpg" alt=""> <p class="test">Nourriture <b>Chat</b></p></div>
+        <div class="swiper-slide" id="nourri"> <img src="images/imge2.jpg" alt=""> <p class="test"><b>Bonne</b> Nourriture</p></div>
+        <div class="swiper-slide" id="nourri"> <img src="images/imge3.jpg" alt=""> <p class="test">Nourriture <BR> <b>Fast Food</b></p></div>
+        <div class="swiper-slide" id="nourri"> <img src="images/imge4.jpg" alt=""> <p class="test">Italie <b>Nourriture</b></p></div>
+        <div class="swiper-slide" id="nourri"> <img src="images/imge5.jpg" alt=""> <p class="test">Nourriture <b>Du Monde</b></p></div>
+        <div class="swiper-slide" id="nourri"> <img src="images/imge5.jpg" alt=""> <p class="test">Nourriture <b>Du Monde</b></p></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 6,
+            spaceBetween: 15,
+            slidesPerGroup: 3,
+            loop: false,
+            loopFillGroupWithBlank: true,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+        <!-- Deuxieme bloc de div -->
+        
+        <div class="bady">
+            <div class="badyimg">
+                <img src="images/IMG6.jpg" alt="nourriture" >
+                <p>Wallpapers Nourriture Allemande - <br> MaximumWall</p>
+                <div class="text">
+                    <h6>1024 x 768 jpeg
+                        <br><br>
+                    <a href="">http://www.maximumwall.com/</a>
+                    </h6>
+                </div>
+            </div>
+            <div class="badyimg">
+                <img src="images/IMG8.jpg" alt="nourriture" >
+                <p>Télécharger fonds d'écran nourriture <br> gratuitement</p>
+                <div class="text">
+                    <h6>1024 x 768 jpeg
+                        <br><br>
+                    <a href="">http://images.toucharger.com</a>
+                    </h6>
+                </div>
+            </div>
+            <div class="badyimg">
+                <img src="images/IMG1O.jpg" alt="nourriture" ">
+                <p>Nourriture - Page 29</p>
+                <div class="text">
+                    <h6>1600 x 1200 jpeg
+                        <br><br>
+                    <a href="">http://chouchoudenantes.centerblog.net</a>
+                    </h6>
+                </div>
+            </div>
+            <div class="badyimg">
+                <img src="images/IMG7.jpg" alt="nourriture" >
+                <p>J’ai mangé de la nourriture pour animaux - <br> URBANIA</p>
+                <div class="text">
+                    <h6>2736 x 1824 jpeg
+                        <br><br>
+                    <a href="">https://urbania.ca</a>
+                    </h6>
+                </div>
+            </div>
+            <div class="badyimg">
+                <img src="images/IMG9.jpg" alt="nourriture" >
+                <p>La nourriture bio, bonne pour la santé? - <br> Pieuvre.ca</p>
+                <div class="text">
+                    <h6>1068 x 713 jpeg
+                        <br><br>
+                    <a href="">https://www.pieuvre.ca</a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="bady">
+            <div class="badyimg">
+                <img src="images/IMG1.jpg" alt="nourriture" >
+                <p>Bon appétit - Nourriture - Crevettes - Citrons - <br> Wallpaper - Free - Le ...</p>
+                <div class="text">
+                    <h6>1068 x 713 jpeg
+                        <br><br>
+                    <a href="">https://www.pieuvre.ca</a>
+                    </h6>
+                </div>
+            </div>
+            <div class="badyimg">
+                <img src="images/IMG2.jpg" alt="nourriture" >
+                <p>Aliments nourriture assortis en lot de 24 en <br> Plastique soufflé ...</p>
+                <<div class="text">
+                    <h6>1200 x 1067 jpeg
+                        <br><br>
+                    <a href="">https://www.artificielles.com</a>
+                    </h6>
+                </div>
+            </div>
+            <div class="badyimg">
+                <img src="images/IMG4.jpg" alt="nourriture" >
+                <p>Comment gérer la nourriture au bivouac ? - <br> Prêt pour l'aventure</p>
+                <div class="text">
+                    <h6>1068 x 713 jpeg
+                        <br><br>
+                    <a href="">https://www.pieuvre.ca</a>
+                    </h6>
+                </div>
+            </div>
+            <div class="badyimg">
+                <img src="images/IMG3.jpg" alt="nourriture" >
+                <p>La nourriture japonaise pour les nuls : <br> Bien manger au Japon</p>
+                <div class="text">
+                    <h6>1068 x 713 jpeg
+                        <br><br>
+                    <a href="">https://www.pieuvre.ca</a>
+                    </h6>
+                </div>
+            </div>
+            <div class="badyimg">
+                <img src="images/IMG5.jpg" alt="nourriture" >
+                <p>J’ai mangé de la nourriture pour animaux - <br> URBANIA</p>
+                <div class="text">
+                    <h6>1068 x 713 jpeg
+                        <br><br>
+                    <a href="">https://www.pieuvre.ca</a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="bady">
+            <div class="badyimg">
+                <img src="images/IMG10.jpg" alt="nourriture" >
+                <p>Wanderlust: La Nourriture</p>
+                <div class="text">
+                    <h6>1068 x 713 jpeg
+                        <br><br>
+                    <a href="">https://www.pieuvre.ca</a>
+                    </h6>
+                </div>
+            </div>
+            <div class="badyimg">
+                <img src="images/IMG11.jpg" alt="nourriture" ">
+                <p>Nourriture - Page 29</p>
+
+            </div>
+            <div class="badyimg">
+                <img src="images/IMG12.jpg" alt="nourriture" >
+                <p>Nourriture déshydratée : Quels avantages ? - <br> Devenir survialiste</p>
+                <div class="text">
+                    <h6>1068 x 713 jpeg
+                        <br><br>
+                    <a href="">https://www.pieuvre.ca</a>
+                    </h6>
+                </div>
+            </div>
+            <div class="badyimg">
+                <img src="images/IMG13.jpg" alt="nourriture" >
+                <p>Quelques astuces de publicitaires <br> pour tricher avec …</p>
+                <div class="text">
+                    <h6>1068 x 713 jpeg
+                        <br><br>
+                    <a href="">https://www.pieuvre.ca</a>
+                    </h6>
+                </div>
+            </div>
+            <div class="badyimg">
+                <img src="images/IMG14.jpg" alt="nourriture" >
+                <p>Délices culinaires - la nourriture <br> asiatique en 80 photos délicie…</p>
+                <div class="text">
+                    <h6>1068 x 713 jpeg
+                        <br><br>
+                    <a href="">https://www.pieuvre.ca</a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

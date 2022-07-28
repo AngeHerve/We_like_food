@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+/*entete*/
+.logo{
+    width:130px;
+    height:20px;
+    margin-left: 10px;
+}
+input[type=search] {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    box-shadow: 1px 1px 1px 1px gray;
+    padding: 15px;
+    margin-left: 20px;
+}
+.bicone{ 
+    width: 140px;
+    height: 25px;
+    margin-left: -180px;
+    margin-top: 10px;
+}
+
+span.sert {
+
+    width: 75px;
+    height: 35px;
+    margin-left: 345px;
+    margin-right: 50px;
+}
+     
+span.style {
+    margin: 380px;
+    width: 40px;
+    height: 25px;
+    text-align: 50px;
+    }
+
+.botom {
+    border-bottom: 3px solid blue; 
+    padding-bottom: 18px;
+}
+span.entete{
+  margin-left: 180px;
+
+}
+.filtre{
+    margin-left: 440px;
+}
+.navi{
+    text-decoration: none;
+    color: black;
+}
+.navi:hover
+{
+    border-bottom: 3px solid blue; 
+    padding-bottom: 18px;
+}
+
+/*corps*/
+
+.bady {
+    width: 90%;
+    display: flex;
+    padding: 10px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.badyimg {
+    width: 230px;
+    height: 200px;
+    border: 1px;
+    border-radius: 18px;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px gray;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.badyimg img{
+    width:215px;
+    height:140px;
+}
+.badyimg .text{
+    opacity: 0;
+}
+/* effets  */
+.badyimg:hover img{
+    border: 1px solid;
+    box-shadow: 5px 10px 20px red inset;
+}
+.badyimg:hover .text{
+    opacity: 1;
+    z-index: 1;
+    position:absolute;
+    top: 55%;
+    background: rgba(0, 0, 0, 0,8);
+    color: white;
+}
+.badyimg:hover .text a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+#nourri {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid skyblue;
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+.pot
+{
+    text-decoration: none;
+    color: black;
+}
+
+#nourri img {
+    width: 50px;
+    height: 45px;
+    border-radius:35px;
+}
+
+
+.test{
+margin-left: 10px;
+margin-top: 6px;
+}
+div.text{
+    width: 92%;
+
+}
+div.text h6{
+    background-color: rgb(103, 92, 92);
+    box-shadow: 5px 10px 20px inset;
+   
+}
+
+/*Reponsivité*/
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .logo{
+        width: 1px;
+        height: 1px;
+        margin-left: 1px;
+    }
+    input[type=search] {
+        width: 50%;
+        height: 25px;
+        border: none;
+        border-radius: 25px;
+        font-size: 10px;
+        box-shadow: 1px 1px 1px 1px gray;
+        padding: 5px;
+        margin-left: 10px;
+    }
+    .bicone{ 
+        width: 160px;
+        height:40px; 
+        margin-left: -180px;
+    }
+    span.sert {
+    
+        width: 75px;
+        height: 35px;
+        margin-left: 345px;
+    }
+         
+    span.style {
+        margin: 380px;
+        width: 40px;
+        height: 25px;
+        text-align: 50px;
+        }
+    
+    .botom {
+        border-bottom: 3px solid blue; 
+        padding-bottom: 18px;
+    }
+    span.entete{
+      margin-left: 180px;
+    
+    }
+    .filtre{
+        margin-left: 440px;
+    }
+    .navi{
+        text-decoration: none;
+        color: black;
+    }
+    .navi:hover
+    {
+        border-bottom: 3px solid blue; 
+        padding-bottom: 18px;
+    }
+    
+}
+
+@media screen and (max-width:767px) {
+    .logo{
+        width:130px;
+        height:20px;
+        margin-left: 10px;
+    }
+    input[type=search] {
+        width: 50%;
+        height: 50px;
+        border: none;
+        border-radius: 25px;
+        font-size: 18px;
+        box-shadow: 1px 1px 1px 1px gray;
+        padding: 15px;
+        margin-left: 20px;
+    }
+    .bicone{ 
+        width: 160px;
+        height:40px; 
+        margin-left: -180px;
+    }
+    span.sert {
+    
+        width: 75px;
+        height: 35px;
+        margin-left: 345px;
+    }
+         
+    span.style {
+        margin: 380px;
+        width: 40px;
+        height: 25px;
+        text-align: 50px;
+        }
+    
+    .botom {
+        border-bottom: 3px solid blue; 
+        padding-bottom: 18px;
+    }
+    span.entete{
+      margin-left: 180px;
+    
+    }
+    .filtre{
+    margin-left: 440px;
+}
+    .navi{
+        text-decoration: none;
+        color: black;
+    }
+    .navi:hover
+    {
+        border-bottom: 3px solid blue; 
+        padding-bottom: 18px;
+    }
+
+}
